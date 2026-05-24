@@ -1,13 +1,17 @@
 {
   "name": "rickly-url-shortener",
-  "module": "index.ts",
   "type": "module",
   "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "api": "bun --filter api dev",
+    "client": "bun --filter client dev",
+    "client:build": "bun --filter client build"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
-  },
-  "workspaces": ["packages/*"]
+  }
 }
