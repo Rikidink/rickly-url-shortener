@@ -6,7 +6,8 @@
   "scripts": {
     "api": "bun --filter api dev",
     "client": "bun --filter client dev",
-    "client:build": "bun --filter client build"
+    "build": "bun --filter client build",
+    "deploy": "bun run build && bun --filter api deploy:prod"
   },
   "devDependencies": {
     "@types/bun": "latest"
