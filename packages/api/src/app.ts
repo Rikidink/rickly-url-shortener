@@ -12,4 +12,4 @@ const apiRoutes = app.basePath("/api")
   .route('/test', testRoute)
 
 export default app;
-export type ApiRoutes= typeof apiRoutes;
+export type ApiRoutes = typeof apiRoutes;
