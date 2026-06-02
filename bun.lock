@@ -18,7 +18,7 @@
         "@hono/zod-validator": "^0.8.0",
         "dotenv": "^17.4.2",
         "drizzle-orm": "^0.45.2",
-        "hono": "^4.12.22",
+        "hono": "^4.12.23",
         "zod": "^4.4.3",
       },
       "devDependencies": {
@@ -34,6 +34,7 @@
       "name": "client",
       "version": "0.0.0",
       "dependencies": {
+        "hono": "^4.12.23",
         "react": "^19.2.6",
         "react-dom": "^19.2.6",
       },
@@ -535,7 +536,7 @@
 
     "hermes-parser": ["hermes-parser@0.25.1", "", { "dependencies": { "hermes-estree": "0.25.1" } }, "sha512-6pEjquH3rqaI6cYAXYPcz9MS4rY6R4ngRgrgfDshRptUZIc3lw0MCIJIGDj9++mfySOuPTHB4nrSW99BCvOPIA=="],
 
-    "hono": ["hono@4.12.22", "", {}, "sha512-7fvVPbB92zNRsQke+uiRGwtTuef0tB2Dg4hWxYfFNvkQhIltWoyi0ONReM5LWA+jJWS3nfT5lTq+qbsIpX0IQw=="],
+    "hono": ["hono@4.12.23", "", {}, "sha512-eIaZ9qDgu7XV0pxOCrg7/WhnQ6Ivm22UcxhXx/A3dcbqbbYgBEkc6e/J/s7j2tS96zoB0S9VBdLwQNCWwUo4LA=="],
 
     "ignore": ["ignore@5.3.2", "", {}, "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g=="],
 
